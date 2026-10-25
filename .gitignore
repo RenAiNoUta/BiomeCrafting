@@ -1,0 +1,20 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.slnx
+*.sln.docstates
+
+# lokalne ustawienia (ścieżka do gry)
+src/Local.props
+
+# pliki gry i BepInEx – nie wrzucamy cudzych bibliotek
+*.dll
+*.pdb
+*.mdb
+
+# paczki wydań (trafiają do Releases, nie do repo)
+release/
+*.zip

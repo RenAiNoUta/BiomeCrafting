@@ -1,0 +1,12 @@
+<!--
+  Skopiuj ten plik jako Local.props (w tym samym folderze) i wpisz ścieżkę do swojej gry.
+  Local.props nie trafia do repozytorium.
+
+  Copy this file to Local.props (same folder) and set your game path.
+  Local.props is not committed.
+-->
+<Project>
+  <PropertyGroup>
+    <ValheimDir>E:\SteamLibrary\steamapps\common\Valheim</ValheimDir>
+  </PropertyGroup>
+</Project>

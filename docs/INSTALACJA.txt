@@ -1,0 +1,71 @@
+BiomeCrafting – mod do Valheim
+==============================
+
+Porządkuje menu craftingu według biomów, dodaje filtry (biom, kategoria,
+jedzenie, miody), kolory stanu przepisów, podpowiedzi „jak odblokować”
+i listę materiałów do zebrania.
+
+Wymagania
+---------
+- Valheim (Steam), wersja 1.0 lub nowsza
+- BepInEx dla Valheim (BepInExPack_Valheim)
+
+Instalacja
+----------
+1. Zainstaluj BepInEx (jeśli jeszcze go nie masz):
+   - Wejdź na valheim.thunderstore.io i wyszukaj „BepInExPack_Valheim” (autor: denikson).
+   - Kliknij „Manual Download” i rozpakuj ZIP.
+   - W Steam: prawy klik na Valheim → Zarządzaj → Przeglądaj pliki lokalne.
+   - Skopiuj ZAWARTOŚĆ folderu „BepInExPack_Valheim” z ZIP-a do folderu gry,
+     tak żeby folder „BepInEx” leżał obok pliku valheim.exe.
+   - Uruchom grę raz do menu głównego i zamknij ją.
+
+2. Wgraj moda:
+   - Skopiuj plik BiomeCrafting.dll do folderu:
+     <folder gry>\BepInEx\plugins\
+
+3. Uruchom grę normalnie ze Steama.
+
+Ustawienia
+----------
+Po pierwszym uruchomieniu pojawi się plik:
+   <folder gry>\BepInEx\config\renainouta.biomecrafting.cfg
+Można go edytować Notatnikiem (przy wyłączonej grze). Najważniejsze opcje:
+- Jezyk = Auto / PL / EN
+- TrybDaltonistow = true / false
+- PokazNieodkryte, UkryjNazwyNieodkrytych (tryb bez spoilerów)
+- PokazPanelFiltrow, PokazListeMaterialow, SkalaPanelu
+
+Gra wieloosobowa
+----------------
+Mod działa tylko po stronie gracza (zmienia wyłącznie wygląd menu).
+Nie trzeba go instalować na serwerze ani u innych graczy.
+
+Odinstalowanie
+--------------
+Usuń BiomeCrafting.dll z folderu BepInEx\plugins.
+Zapisów świata ani postaci mod nie zmienia.
+
+
+-------------------------------------------------------------------------------
+
+BiomeCrafting – Valheim mod (English)
+=====================================
+
+Sorts the crafting menu by biome, adds filters (biome, category, food, meads),
+recipe state colors, "how to unlock" hints and a materials shopping list.
+
+Requirements: Valheim 1.0+, BepInExPack_Valheim (by denikson, from valheim.thunderstore.io).
+
+Install:
+1. Install BepInEx: download BepInExPack_Valheim (Manual Download), copy the CONTENTS
+   of the "BepInExPack_Valheim" folder into the game folder (next to valheim.exe),
+   start the game once and close it.
+2. Copy BiomeCrafting.dll into <game folder>\BepInEx\plugins\
+3. Start the game.
+
+Settings: <game folder>\BepInEx\config\renainouta.biomecrafting.cfg
+(set Jezyk = EN to force English texts; Auto uses English for any non-Polish game language).
+
+Client-side only – not needed on the server or by other players.
+Uninstall: delete BiomeCrafting.dll from BepInEx\plugins.
