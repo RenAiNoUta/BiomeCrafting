@@ -1,6 +1,6 @@
 # BiomeCrafting – Valheim mod
 
-**[⬇ Pobierz najnowszą wersję / Download latest release](https://github.com/RenAiNoUta/BiomeCrafting/releases/latest)**
+**[⬇ Pobierz najnowszą wersję / Download latest release](https://github.com/RenAiNoUta/BiomeCrafting/releases)**
 
 🇵🇱 [Polski](#polski) · 🇬🇧 [English](#english)
 
@@ -26,7 +26,7 @@ Porządkuje menu craftingu w Valheim według biomów i dodaje filtry, kolory ora
 ### Instalacja
 1. Zainstaluj **BepInEx**: pobierz [BepInExPack_Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/) („Manual Download”), skopiuj zawartość folderu `BepInExPack_Valheim` do folderu gry (obok `valheim.exe`), uruchom grę raz i zamknij.
    Folder gry: Steam → prawy klik na Valheim → Zarządzaj → Przeglądaj pliki lokalne.
-2. Pobierz paczkę z **[Releases](https://github.com/RenAiNoUta/BiomeCrafting/releases/latest)** i rozpakuj ją do folderu gry – plik trafi do `BepInEx\plugins\BiomeCrafting.dll`.
+2. Pobierz paczkę z **[Releases](https://github.com/RenAiNoUta/BiomeCrafting/releases)** i rozpakuj ją do folderu gry – plik trafi do `BepInEx\plugins\BiomeCrafting.dll`.
 3. Uruchom grę.
 
 **Ustawienia:** `BepInEx\config\renainouta.biomecrafting.cfg` (edytuj przy wyłączonej grze), m.in. `Jezyk`, `TrybDaltonistow`, `PozycjaListy`, `UkryjNazwyNieodkrytych`.
@@ -54,7 +54,7 @@ Sorts Valheim's crafting menu by biome and adds filters, state colors and a mate
 
 ### Install
 1. Install [BepInExPack_Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/): copy the contents of the `BepInExPack_Valheim` folder into the game folder, start the game once, close it.
-2. Download the archive from **[Releases](https://github.com/RenAiNoUta/BiomeCrafting/releases/latest)** and extract it into the game folder (→ `BepInEx\plugins\BiomeCrafting.dll`).
+2. Download the archive from **[Releases](https://github.com/RenAiNoUta/BiomeCrafting/releases)** and extract it into the game folder (→ `BepInEx\plugins\BiomeCrafting.dll`).
 3. Start the game.
 
 Settings: `BepInEx\config\renainouta.biomecrafting.cfg` – set `Jezyk = EN` to force English (Auto uses English for any non-Polish game language).
