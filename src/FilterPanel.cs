@@ -66,6 +66,18 @@ namespace BiomeCrafting
 
             _scroll = GUILayout.BeginScrollView(_scroll, false, false, GUIStyle.none, GUI.skin.verticalScrollbar);
 
+            // --- widok (to nie filtr – przycisk "Wyczyść" go nie zmienia)
+            GUILayout.Label(Txt.T("Pokaż", "Show"), Ui.Section);
+            bool showUnd = Plugin.ShowUndiscovered.Value;
+            bool nowUnd = Ui.DoToggle(showUnd, Txt.T("Nienauczone przepisy", "Unlearned recipes"));
+            if (nowUnd != showUnd)
+            {
+                Plugin.ShowUndiscovered.Value = nowUnd;
+                changed = true;
+            }
+
+            GUILayout.Space(6f);
+
             // --- biomy
             GUILayout.Label(Txt.T("Biom", "Biome"), Ui.Section);
             for (int b = 0; b < BiomeClassifier.BiomeCount; b++)

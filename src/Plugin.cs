@@ -10,7 +10,7 @@ namespace BiomeCrafting
     {
         public const string Guid = "renainouta.biomecrafting";
         public const string ModName = "BiomeCrafting";
-        public const string Version = "0.6.9";
+        public const string Version = "0.7.0";
 
         internal static ManualLogSource Log;
         internal static Plugin Instance;
@@ -55,8 +55,9 @@ namespace BiomeCrafting
             ShowHeaders = Config.Bind("1 - Ogolne", "PokazNaglowki", true,
                 "Pokazuje nagłówki biomów na liście. Kliknięcie nagłówka zwija/rozwija grupę.");
 
-            ShowUndiscovered = Config.Bind("2 - Widocznosc", "PokazNieodkryte", true,
-                "Pokazuje na szaro przepisy, których jeszcze nie odkryłeś (nie da się ich wytworzyć).");
+            ShowUndiscovered = Config.Bind("2 - Widocznosc", "PokazNieodkryte", false,
+                "Pokazuje przepisy, których jeszcze nie odkryłeś (nie da się ich wytworzyć). " +
+                "Można to też przełączać checkboxem w panelu filtrów.");
             HideUndiscoveredNames = Config.Bind("2 - Widocznosc", "UkryjNazwyNieodkrytych", false,
                 "Tryb bez spoilerów: nieodkryte przepisy pokazują się jako ??? z zaciemnioną ikoną.");
             ShowOtherStations = Config.Bind("2 - Widocznosc", "PokazZInnychStacji", false,

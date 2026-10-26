@@ -16,6 +16,7 @@ Porządkuje menu craftingu w Valheim według biomów i dodaje filtry, kolory ora
 - **Przepisy pogrupowane biomami** (Łąki → Daleka Północ) z nagłówkami, które można zwijać.
 - **Filtry**: biom, kategoria (miecze, łuki, zbroja…), jedzenie według głównej statystyki, miody według efektu – można łączyć kilka naraz.
 - **Kolory stanu przepisu**: można wytworzyć / brak materiałów / za niski poziom stacji / nieodkryte (jest też tryb dla daltonistów).
+- **Nienauczone przepisy** są domyślnie ukryte – checkbox „Nienauczone przepisy” w panelu filtrów pokazuje je na czerwono.
 - **„Jak odblokować”**: przy nieodkrytych przepisach pokazuje, których materiałów jeszcze nie podniosłeś i z jakiego biomu są; przy za słabej stacji – jakich ulepszeń brakuje.
 - **Gotowe danie**: przy półproduktach i ucztach pokazuje statystyki po upieczeniu.
 - **Lista materiałów do zebrania**: przycisk **+** przy przepisie, do 5 przedmiotów, suma materiałów w porównaniu z plecakiem – widoczna także przy skrzyni.
@@ -48,6 +49,7 @@ Sorts Valheim's crafting menu by biome and adds filters, state colors and a mate
 - **Recipes grouped by biome** (Meadows → Deep North) with collapsible headers.
 - **Filters**: biome, category, food by main stat, meads by effect – combinable.
 - **Recipe state colors**: craftable / missing materials / station level too low / undiscovered (colorblind mode available).
+- **Unlearned recipes** are hidden by default – tick "Unlearned recipes" in the filter panel to show them.
 - **"How to unlock"** hints for undiscovered recipes and missing station upgrades.
 - **Finished dish** stats for uncooked items and feasts.
 - **Materials shopping list**: **+** button on a recipe, up to 5 items, totals compared with your inventory – also visible at chests.
